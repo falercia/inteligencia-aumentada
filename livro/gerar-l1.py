@@ -40,6 +40,7 @@ ORDEM = [
     ("00-paratexto/L1-00e-sobre-os-casos.md", "Sobre os Casos"),
     ("00-paratexto/L1-01-prefacio.md", "Prefácio"),
     ("00-paratexto/L1-02-como-ler.md", "Como Ler"),
+    ("00-paratexto/L1-02b-o-que-mudou.md", "O Que Mudou Nesta Edição"),
     ("00-paratexto/L1-03-introducao.md", "Introdução"),
     ("00-paratexto/L1-04-sumario.md", "Sumário"),
     ("00-paratexto/L1-05-mapa-de-leitura-por-nivel.md", "Mapa de Leitura"),

@@ -4,6 +4,26 @@
 
 ---
 
+## livro-v1.1 — 12 de agosto de 2026
+
+**Nova edição digital do livro** (PDF + HTML na pasta `/livro` e na release/tag `livro-v1.1`). O que mudou para o leitor:
+
+### Corpo do livro
+- **Capítulo 19 (Segurança)**: seção nova sobre proveniência de conteúdo gerado — a partir de agosto de 2026, os principais modelos embutem marcas d'água invisíveis no texto que geram (exigência do Art. 50 do EU AI Act, aplicada mundialmente). O princípio durável: **a marca prova processamento, não autoria**.
+- **Paratexto novo**: página "O Que Mudou Nesta Edição" logo após "Como Ler" — prestação de contas de cada revisão, em linguagem direta.
+
+### Apêndice J — Trilha do Número (rev. 12/ago)
+- **Marcas d'água**: anúncio da Anthropic de 11/08 incorporado (watermark no texto + metadados C2PA em arquivos, modelos lançados a partir de 02/08, aplicação mundial)
+- **Sonnet 5**: aumento de preço programado para setembro **cancelado** — US$ 2/10 por MTok virou preço padrão
+- **Fable 5**: salvaguardas de biologia recalibradas (07/08) — fallbacks de biologia reduzidos ~85%
+- **EU AI Act**: Digital Omnibus formalizado como Regulamento (UE) 2026/1744; Art. 50 em aplicação desde 02/08
+- **PL 2338**: sinal público de votação apenas em dez/2026 ou 2027 (declaração, não fato)
+- Tabela de benchmarks com coluna nova de **fonte primária** por benchmark
+
+A camada pública de números da série (deep-claude → `apendice-vivo/`) foi atualizada no mesmo ciclo.
+
+---
+
 ## v1.3.0 — junho de 2026
 
 **Release de multiagentes completos.** A03 (cooperativo) e A04 (adversarial) saem do estado de stub para implementação executável, com READMEs no padrão "Que problema este agente resolve" e exemplos rodáveis. CONTRATO, README mestre e `/prompts/README.md` reescritos honestamente refletindo o estado real do repositório, sem maquiagem.

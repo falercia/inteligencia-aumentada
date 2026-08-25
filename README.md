@@ -15,8 +15,8 @@
   <a href="https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes.pdf">
     <img src="https://img.shields.io/badge/Baixar%20o%20livro-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Baixar o PDF">
   </a>
-  <a href="https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes-web.html">
-    <img src="https://img.shields.io/badge/Ler%20no%20navegador-HTML-0A66C2?style=for-the-badge&logo=html5&logoColor=white" alt="Ler no navegador">
+  <a href="https://falercia.github.io/inteligencia-aumentada/ler/">
+    <img src="https://img.shields.io/badge/Ler%20online-gr%C3%A1tis-0A66C2?style=for-the-badge&logo=html5&logoColor=white" alt="Ler online">
   </a>
 </p>
 
@@ -24,6 +24,10 @@
   <a href="#licença"><img src="https://img.shields.io/badge/c%C3%B3digo-MIT-blue" alt="Licença do código"></a>
   <a href="#licença"><img src="https://img.shields.io/badge/conte%C3%BAdo-CC--BY%204.0-lightgrey" alt="Licença do conteúdo"></a>
   <a href="./CHANGELOG.md"><img src="https://img.shields.io/github/v/release/falercia/inteligencia-aumentada?label=vers%C3%A3o&color=success" alt="Versão publicada"></a>
+</p>
+
+<p align="center">
+  <strong><a href="https://falercia.github.io/inteligencia-aumentada/">Página do livro</a></strong> · leitura online, PDF e sumário completo
 </p>
 
 ---
@@ -35,7 +39,7 @@ Os dois livros da série são gratuitos.
 | | Formato | Link direto |
 |---|---|---|
 | **Livro 1 · Os Invariantes da IA** | PDF | [Inteligencia-Aumentada-L1-Os-Invariantes.pdf](https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes.pdf) |
-| **Livro 1 · Os Invariantes da IA** | HTML | [ler no navegador](https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes-web.html) |
+| **Livro 1 · Os Invariantes da IA** | HTML | [ler no navegador](https://falercia.github.io/inteligencia-aumentada/ler/) |
 | **Livro 2 · Deep Claude** | PDF | [Inteligencia-Aumentada-L2-Deep-Claude.pdf](https://github.com/falercia/deep-claude/releases/latest/download/Inteligencia-Aumentada-L2-Deep-Claude.pdf) |
 | **Companion executável** | Repositório | [as pastas práticas abaixo](#o-que-vive-aqui) |
 

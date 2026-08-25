@@ -4,6 +4,35 @@
 
 ---
 
+## livro-v1.2 — 25 de agosto de 2026
+
+**Revisão da camada de distribuição: o leitor precisa saber onde clicar.**
+
+### Repositório renomeado
+
+`inteligencia-aumentada-recursos` passou a se chamar `inteligencia-aumentada`, fechando a simetria com `deep-claude`, o repositório do Livro 2. O GitHub mantém redirecionamento permanente do nome antigo, então links já compartilhados continuam funcionando.
+
+### Adicionado
+
+- README com a capa do livro, botões de download e a tabela "Baixar" no topo, antes de qualquer texto editorial. Antes disso, quem chegava pelo LinkedIn não tinha como saber que o livro estava nas Releases
+- `livro/capa-l1.png`, extraída da primeira página da edição digital
+- `.github/RELEASE_TEMPLATE.md`, cabeçalho fixo das notas de release, com o download em primeiro lugar
+- `.github/workflows/release.yml`, publicação automática ao empurrar tag `v*` ou `livro-v*`, com gate que aborta se o PDF ou o HTML estiverem ausentes ou truncados, e corpo montado a partir da seção correspondente deste changelog
+
+### Alterado
+
+- **Nomes canônicos dos entregáveis, congelados a partir desta versão**: `Inteligencia-Aumentada-L1-Os-Invariantes.pdf` e `Inteligencia-Aumentada-L1-Os-Invariantes-web.html`, substituindo `Inteligencia-Aumentada-EDICAO-DIGITAL.*`. O nome fixo é o que faz `releases/latest/download/` funcionar como link permanente
+- Toda release deste repositório passa a carregar o livro anexado, inclusive as de artefato do companion. Sem essa regra, uma release só de artefato viraria a "Latest" e quebraria os links permanentes
+- `livro/gerar-l1.py` grava com os nomes canônicos
+- Links do Livro 2 apontam para `releases/latest/download` em vez da tag `livro-v1.0`, que estava desatualizada
+- Referências ao nome antigo do repositório atualizadas em README, CONTRATO, MAPA-DO-PROJETO, `extract-prompts.py` e no README do M02
+
+### Corrigido
+
+- `.gitignore` passa a cobrir `livro/_build/` e os backups no padrão `.bak-AAAAMMDD`
+
+---
+
 ## livro-v1.1 — 12 de agosto de 2026
 
 **Nova edição digital do livro** (PDF + HTML na pasta `/livro` e na release/tag `livro-v1.1`). O que mudou para o leitor:

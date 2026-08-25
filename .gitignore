@@ -28,3 +28,9 @@ tmp/
 # Artefatos compilados de evals
 datasets/*.jsonl
 evals/reports/
+
+# Intermediarios de build do livro
+livro/_build/
+
+# Backups datados
+*.bak-*

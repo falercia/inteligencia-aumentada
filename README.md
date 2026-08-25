@@ -1,14 +1,47 @@
-# Inteligência Aumentada · Recursos
+<p align="center">
+  <img src="livro/capa-l1.png" width="300" alt="Capa de Inteligência Aumentada · Os 9 Invariantes da IA">
+</p>
 
-> O número que muda. A Camada Dupla aplicada na prática.
-> Companheiro executável do livro **Inteligência Aumentada · Os Invariantes da IA** (Fabio Garcia, 2026).
+<h1 align="center">Inteligência Aumentada</h1>
 
-> 📖 **Os livros são gratuitos.** Baixe nos Releases: [Livro 1 — Os Invariantes da IA](https://github.com/falercia/inteligencia-aumentada-recursos/releases/tag/livro-v1.0) · [Livro 2 — Deep Claude](https://github.com/falercia/deep-claude/releases/tag/livro-v1.0)
->
+<p align="center">
+  <strong>Os 9 Invariantes da IA</strong><br>
+  Livro 1 da série · Fabio Garcia, 2026
+</p>
+
+<p align="center"><em>Modelos passam. Método fica.</em></p>
+
+<p align="center">
+  <a href="https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes.pdf">
+    <img src="https://img.shields.io/badge/Baixar%20o%20livro-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Baixar o PDF">
+  </a>
+  <a href="https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes-web.html">
+    <img src="https://img.shields.io/badge/Ler%20no%20navegador-HTML-0A66C2?style=for-the-badge&logo=html5&logoColor=white" alt="Ler no navegador">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#licença"><img src="https://img.shields.io/badge/c%C3%B3digo-MIT-blue" alt="Licença do código"></a>
+  <a href="#licença"><img src="https://img.shields.io/badge/conte%C3%BAdo-CC--BY%204.0-lightgrey" alt="Licença do conteúdo"></a>
+  <a href="./CHANGELOG.md"><img src="https://img.shields.io/github/v/release/falercia/inteligencia-aumentada?label=vers%C3%A3o&color=success" alt="Versão publicada"></a>
+</p>
+
+---
+
+## Baixar
+
+Os dois livros da série são gratuitos.
+
+| | Formato | Link direto |
+|---|---|---|
+| **Livro 1 · Os Invariantes da IA** | PDF | [Inteligencia-Aumentada-L1-Os-Invariantes.pdf](https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes.pdf) |
+| **Livro 1 · Os Invariantes da IA** | HTML | [ler no navegador](https://github.com/falercia/inteligencia-aumentada/releases/latest/download/Inteligencia-Aumentada-L1-Os-Invariantes-web.html) |
+| **Livro 2 · Deep Claude** | PDF | [Inteligencia-Aumentada-L2-Deep-Claude.pdf](https://github.com/falercia/deep-claude/releases/latest/download/Inteligencia-Aumentada-L2-Deep-Claude.pdf) |
+| **Companion executável** | Repositório | [as pastas práticas abaixo](#o-que-vive-aqui) |
+
+Todos os links apontam sempre para a edição mais recente, então podem ser compartilhados sem envelhecer. Histórico em [Releases](https://github.com/falercia/inteligencia-aumentada/releases) e em [CHANGELOG.md](./CHANGELOG.md).
+
 > 💡 **Dica — leia com IA:** jogue os PDFs no **[NotebookLM](https://notebooklm.google.com)** (grátis). Você conversa com os livros, pede resumo por capítulo e gera um *audio overview* pra ouvir no trânsito. Vira um tutor particular da obra.
-
-[![Licença código](https://img.shields.io/badge/c%C3%B3digo-MIT-blue)](#licença)
-[![Licença conteúdo](https://img.shields.io/badge/conte%C3%BAdo-CC--BY%204.0-lightgrey)](#licença)
 
 ---
 
@@ -17,6 +50,8 @@
 A obra **Inteligência Aumentada** opera sob o Invariante Três, a Camada Dupla, que afirma que conhecimento em IA vive em dois andares, o padrão que dura e o número que muda. O livro carrega o padrão — frameworks, arquiteturas, anti-padrões, vocabulário durável. Este repositório carrega o número — XML versionado de prompts, golden sets executáveis, scripts de regressão, changelog versionado, exemplos rodáveis, agentes e servidores MCP educacionais.
 
 Sem o livro, este repositório é catálogo sem mapa, com receitas que o operador desentendido aplicará no contexto errado. Sem o repositório, o livro é vocabulário sem executável, com método que o operador entendeu mas não consegue colocar em produção sem reescrever cada artefato do zero. Juntos, os dois materializam a tese central da obra, com o leitor que opera com os dois saindo com modelo mental sólido e ativos prontos para entrar em pipeline.
+
+O manuscrito em Markdown vive em repositório privado. O que é publicado aqui é a obra pronta, em PDF e HTML, mais tudo que se executa.
 
 ---
 
@@ -53,8 +88,8 @@ Cada pasta tem seu próprio `README.md` com instruções específicas, padrões 
 ## Como começar em 60 segundos
 
 ```bash
-git clone https://github.com/falercia/inteligencia-aumentada-recursos.git
-cd inteligencia-aumentada-recursos
+git clone https://github.com/falercia/inteligencia-aumentada.git
+cd inteligencia-aumentada
 ```
 
 Três caminhos a partir daqui, conforme seu objetivo:
@@ -167,9 +202,9 @@ Você pode usar comercialmente, modificar, redistribuir e construir produtos der
 
 A obra **Inteligência Aumentada · Os Invariantes da IA** foi escrita como referência executiva em português para CTOs, AI engineers, executivos e operadores que precisam navegar a IA moderna sem cair nas armadilhas clássicas do hype. O livro entrega o método que sobrevive à próxima geração de modelos; este repositório entrega os artefatos que materializam o método em produção.
 
-🔗 **Livros (grátis):** [Livro 1 — Os Invariantes da IA](https://github.com/falercia/inteligencia-aumentada-recursos/releases/tag/livro-v1.0) · [Livro 2 — Deep Claude](https://github.com/falercia/deep-claude/releases/tag/livro-v1.0)
+🔗 **Livros (grátis):** [Livro 1 — Os Invariantes da IA](https://github.com/falercia/inteligencia-aumentada/releases/tag/livro-v1.0) · [Livro 2 — Deep Claude](https://github.com/falercia/deep-claude/releases/tag/livro-v1.0)
 🔗 **LinkedIn:** [linkedin.com/in/falercia](https://linkedin.com/in/falercia)
-🔗 **Issues e contato editorial:** [github.com/falercia/inteligencia-aumentada-recursos/issues](https://github.com/falercia/inteligencia-aumentada-recursos/issues)
+🔗 **Issues e contato editorial:** [github.com/falercia/inteligencia-aumentada/issues](https://github.com/falercia/inteligencia-aumentada/issues)
 
 ---
 

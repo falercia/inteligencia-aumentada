@@ -20,10 +20,10 @@
 
 ## Comandos exatos
 
-Assumindo que o repositório clonado fica em `~/Documents/Personal/Livros/inteligencia-aumentada-recursos/` (mesmo padrão da v1.0.1).
+Assumindo que o repositório clonado fica em `~/Documents/Personal/Livros/inteligencia-aumentada/` (mesmo padrão da v1.0.1).
 
 ```bash
-cd ~/Documents/Personal/Livros/inteligencia-aumentada-recursos
+cd ~/Documents/Personal/Livros/inteligencia-aumentada
 
 # 1. Copiar arquivos novos e atualizados
 SRC="/Users/fabiogarcia/Documents/Personal/Livros/Ebook IA/_repositorio-acompanhante"
@@ -72,7 +72,7 @@ git push origin v1.1.0
 ## Validação local antes do push (recomendado)
 
 ```bash
-cd ~/Documents/Personal/Livros/inteligencia-aumentada-recursos
+cd ~/Documents/Personal/Livros/inteligencia-aumentada
 
 # Confirma que eval_runner.py roda em dry-run (não chama API)
 python evals/eval_runner.py --prompt P-LEG-01 --dry-run

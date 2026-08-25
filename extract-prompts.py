@@ -4,7 +4,7 @@ extract-prompts.py
 ====================================================================
 Extrai os 30 prompts profissionais do APX-L (Apêndice L do Livro 1
 Inteligência Aumentada) e popula a estrutura do repositório
-inteligencia-aumentada-recursos, gerando:
+inteligencia-aumentada, gerando:
 
   prompts/P-XXX-NN-slug/
     ├── README.md         ← ficha conceitual + metadados

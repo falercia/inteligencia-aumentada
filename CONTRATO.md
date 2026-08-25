@@ -30,7 +30,7 @@ A separação física é deliberada e materializa o método. Quem só lê o livr
 ## O que vive aqui (estado em junho de 2026 · v1.3.0)
 
 ```
-inteligencia-aumentada-recursos/
+inteligencia-aumentada/
 ├── README.md             ← porta de entrada com visão geral
 ├── CONTRATO.md           ← este arquivo (escopo, manutenção, contribuição)
 ├── CHANGELOG.md          ← histórico versionado de releases
@@ -134,7 +134,7 @@ Este repositório só faz sentido pleno em conjunto com a obra **Inteligência A
 
 **Autor:** Fabio Garcia — CTO, Head de Tecnologia, autor da obra **Inteligência Aumentada**.
 **LinkedIn:** [linkedin.com/in/falercia](https://linkedin.com/in/falercia)
-**Issues e contato editorial:** [github.com/falercia/inteligencia-aumentada-recursos/issues](https://github.com/falercia/inteligencia-aumentada-recursos/issues)
+**Issues e contato editorial:** [github.com/falercia/inteligencia-aumentada/issues](https://github.com/falercia/inteligencia-aumentada/issues)
 
 ---
 

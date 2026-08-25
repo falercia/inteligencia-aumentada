@@ -46,7 +46,7 @@ pip install -r requirements.txt
 O servidor lê dois diretórios relativos à raiz do repo, então você precisa configurar a env var apontando para onde o repositório está:
 
 ```bash
-export REPO_ROOT="/caminho/absoluto/para/inteligencia-aumentada-recursos"
+export REPO_ROOT="/caminho/absoluto/para/inteligencia-aumentada"
 ```
 
 ### Modo 1 — Cliente de teste local

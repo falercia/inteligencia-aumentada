@@ -258,7 +258,7 @@ def cmd_chunk(idx):
 
 def cmd_merge():
     from pypdf import PdfWriter
-    final = BASE / "Inteligencia-Aumentada-EDICAO-DIGITAL.pdf"
+    final = BASE / "Inteligencia-Aumentada-L1-Os-Invariantes.pdf"
     w = PdfWriter()
     if CAPA_PDF.exists():
         w.append(str(CAPA_PDF)); print("  + capa-frontal")
@@ -277,7 +277,7 @@ def cmd_merge():
 def cmd_html():
     md = consolidar(0, len(ORDEM), "data", com_folha=True)
     tmp = BUILD / "l1-html-src.md"; tmp.write_text(md, encoding="utf-8")
-    out = BASE / "Inteligencia-Aumentada-EDICAO-DIGITAL.html"
+    out = BASE / "Inteligencia-Aumentada-L1-Os-Invariantes-web.html"
     subprocess.run(["pandoc", str(tmp), "-f",
         "markdown+raw_html+definition_lists+fenced_code_blocks+pipe_tables",
         "-t", "html5", "--standalone", "--toc", "--toc-depth=1", "-o", str(out),

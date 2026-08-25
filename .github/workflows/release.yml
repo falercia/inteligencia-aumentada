@@ -1,0 +1,94 @@
+name: Publicar release
+
+on:
+  push:
+    tags:
+      - 'v*'
+      - 'livro-v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag existente a republicar (ex: livro-v1.2)'
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  PDF: livro/Inteligencia-Aumentada-L1-Os-Invariantes.pdf
+  HTML: livro/Inteligencia-Aumentada-L1-Os-Invariantes-web.html
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.tag || github.ref }}
+
+      # Toda release deste repo carrega o livro, inclusive as de artefato do
+      # companion. Sem isso, uma release so de artefato viraria "Latest" e
+      # quebraria os links permanentes de releases/latest/download.
+      - name: Gate de assets obrigatorios
+        run: |
+          set -e
+          falhou=0
+          for f in "$PDF" "$HTML"; do
+            if [ ! -f "$f" ]; then
+              echo "::error::Asset obrigatorio ausente: $f. Release abortada."
+              falhou=1
+              continue
+            fi
+            tamanho=$(stat -c%s "$f")
+            if [ "$tamanho" -lt 500000 ]; then
+              echo "::error::$f tem apenas $tamanho bytes, build provavelmente quebrado. Release abortada."
+              falhou=1
+            else
+              echo "OK: $f ($(numfmt --to=iec $tamanho))"
+            fi
+          done
+          [ "$falhou" -eq 0 ] || exit 1
+
+      - name: Montar corpo da release
+        run: |
+          set -e
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
+          VERSAO="${TAG#livro-v}"; VERSAO="${VERSAO#v}"
+          extrai() {
+            awk -v alvo="$1" '
+              index($0, "## " alvo) == 1 { p=1; next }
+              p && /^## / { exit }
+              p { print }
+            ' CHANGELOG.md
+          }
+          secao=$(extrai "$TAG")
+          [ -n "$(echo "$secao" | tr -d '[:space:]')" ] || secao=$(extrai "[$VERSAO]")
+          [ -n "$(echo "$secao" | tr -d '[:space:]')" ] || secao=$(extrai "$VERSAO")
+          {
+            cat .github/RELEASE_TEMPLATE.md
+            echo
+            echo "### O que mudou nesta versao"
+            echo
+            if [ -n "$(echo "$secao" | tr -d '[:space:]')" ]; then
+              echo "$secao"
+            else
+              echo "_Sem secao correspondente no CHANGELOG para $TAG._"
+            fi
+            echo
+            echo "[Changelog completo](https://github.com/falercia/inteligencia-aumentada/blob/main/CHANGELOG.md)"
+            echo
+            echo "---"
+            echo
+            echo "Primeira vez por aqui? Comece pelo [README](https://github.com/falercia/inteligencia-aumentada#readme). Distribuicao gratuita, compartilhe com sua equipe."
+          } > release-notes.md
+          echo "--- previa ---"; cat release-notes.md
+
+      - name: Publicar
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          name: Os Invariantes da IA · ${{ github.event.inputs.tag || github.ref_name }}
+          body_path: release-notes.md
+          files: |
+            livro/Inteligencia-Aumentada-L1-Os-Invariantes.pdf
+            livro/Inteligencia-Aumentada-L1-Os-Invariantes-web.html

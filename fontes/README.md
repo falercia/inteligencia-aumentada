@@ -165,7 +165,7 @@ Esta lista é revisada periodicamente sem cadência fixa. O leitor que quiser su
 
 - **Apêndice E — Leituras Complementares** — fonte primária da seção de livros e cursos
 - **Apêndice F — Comunidade Brasileira de IA em 2026** — fonte primária da seção de newsletters, podcasts e conferências
-- **Invariante Cinco — Honestidade Temporal** — a postura que exige data e revisão declaradas em toda lista perecível
+- **Invariante Três — Camada Dupla** — o padrão dura, o número tem data, e toda lista perecível declara a sua
 - **Capítulo 17 — Auditoria de Repositório GitHub** — o método que também se aplica a avaliar qualquer repositório de ferramentas listado aqui
 
 > *"A segunda vida da profissão de IA no Brasil acontece em português, em rodas de conversa em meetups, em comunidades no Discord e Telegram, e essa segunda vida é a que sustenta carreira, contratação, mentoria, debate sobre regulação local, e troca real de aprendizado em contexto brasileiro."*

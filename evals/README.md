@@ -55,7 +55,7 @@ Cada caso do golden set carrega:
 - `category`: `facil` | `medio` | `limitrofe` | `adversarial`
 - `input`: variáveis nomeadas que serão substituídas no prompt
 - `expected`: critérios de avaliação (`must_contain`, `regex_required`, `json_keys`, etc.)
-- `calibration_date`: data em que o caso foi calibrado (Invariante 5, Honestidade Temporal)
+- `calibration_date`: data em que o caso foi calibrado (Invariante 3, Camada Dupla)
 - `notes`: contexto humano da calibração
 
 ---

@@ -12,7 +12,7 @@ PRINCÍPIOS APLICADOS DA OBRA
 ----------------------------
 - F8 Pirâmide da Avaliação: base canônica + meio ambíguo + topo adversarial
 - Princípio 7 Termômetro Permanente: eval contínuo, com base, meio e topo definidos
-- Princípio 5 Honestidade Temporal: cada caso carrega data de calibração; cada release
+- Invariante 3 Camada Dupla: cada caso carrega data de calibração; cada release
   carrega changelog datado.
 
 ARQUITETURA

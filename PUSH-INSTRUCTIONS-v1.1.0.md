@@ -109,7 +109,7 @@ git push origin main && git push origin v1.1.1
 
 ## Anti-padrão que esta release evita
 
-Publicar JSONLs sintéticos gerados automaticamente, sem calibração humana datada, viola o Invariante Cinco (Honestidade Temporal) e o pacto editorial do APX-L. Por isso a release de **infraestrutura** (motor + script de compilação) sai independente da release de **dados** (JSONLs calibrados).
+Publicar JSONLs sintéticos gerados automaticamente, sem calibração humana datada, viola o Invariante Três (Camada Dupla) e o pacto editorial do APX-L. Por isso a release de **infraestrutura** (motor + script de compilação) sai independente da release de **dados** (JSONLs calibrados).
 
 A documentação no README e no CHANGELOG é explícita sobre essa separação. O leitor que clonar o repo na manhã do dia 1 de julho encontra um motor rodável; o leitor que clonar na manhã do dia 10 encontra também os 30 JSONLs públicos com data de calibração visível.
 

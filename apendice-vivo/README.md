@@ -75,7 +75,7 @@ O que sobrevive ao ciclo não é o ranking — é o método de avaliar: qual é 
 
 - **Apêndice J — Trilha do Número** — referencia o Apêndice Vivo como fonte viva dos dados que mudam
 - **Invariante Três — A Camada Dupla** — a tese que justifica o ponteiro em vez da duplicação
-- **Invariante Cinco — Honestidade Temporal** — a postura que exige data em cada dado perecível
+- **Invariante Três — Camada Dupla** — o padrão dura, o número tem data, e todo dado perecível declara a sua
 - **Capítulo 15 — Modelos** — framework de decisão de modelo que este apêndice alimenta com números
 
 ---

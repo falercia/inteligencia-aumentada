@@ -83,7 +83,7 @@ O manuscrito em Markdown vive em repositório privado. O que é publicado aqui �
 | 🔗 [`/apendice-vivo`](./apendice-vivo/) | Ponteiro para a fonte única de números cross-vendor da série (modelos, preços, benchmarks, janelas de contexto) mantida no repo deep-claude, com método vendor-neutral de ler comparações de modelo e preço de token | APX-J Trilha do Número · Invariante Três Camada Dupla · Cap 15 Modelos |
 | 🛠️ [`/ferramentas`](./ferramentas/) | Catálogo de ferramentas e stack extraído do APX-D — plataformas de inferência, modelos open weights, frameworks de agente, bancos vetoriais, observabilidade, evals, MCP e gestão de prompts — com critério de seleção em seis dimensões e data de revisão | APX-D Ferramentas e Stack · Framework F5 Matriz de Cobertura · Cap 17 Auditoria de Repositório |
 | 📦 [`/repos-curados`](./repos-curados/) | Lista de repositórios GitHub do Cap 17, com o Protocolo de 30 Minutos (seis critérios duráveis), as quatro armadilhas clássicas e o ciclo de vida do repositório como cabeçalho — a lista envelhece, o método não | Cap 17 Auditoria de Repositório · Cap 13 MCP · Cap 16 Open Source |
-| 📚 [`/fontes`](./fontes/) | Leituras (APX-E) e comunidade brasileira (APX-F) fundidas — livros de fundamento técnico, livros de governança, blogs e newsletters em inglês, newsletters e podcasts brasileiros, conferências e comunidades online, com critérios de curadoria e data de revisão | APX-E Leituras · APX-F Comunidade Brasileira de IA · Invariante Cinco Honestidade Temporal |
+| 📚 [`/fontes`](./fontes/) | Leituras (APX-E) e comunidade brasileira (APX-F) fundidas — livros de fundamento técnico, livros de governança, blogs e newsletters em inglês, newsletters e podcasts brasileiros, conferências e comunidades online, com critérios de curadoria e data de revisão | APX-E Leituras · APX-F Comunidade Brasileira de IA · Invariante Três Camada Dupla |
 
 Cada pasta tem seu próprio `README.md` com instruções específicas, padrões de uso e exemplos práticos.
 
@@ -127,7 +127,7 @@ Três caminhos a partir daqui, conforme seu objetivo:
 
 **Qualidade plena** significa: golden set com 20 casos categorizados em fáceis, médios e limítrofes, prefill ancorando o início da resposta, self-critique calibrado contra a constituição, anti-padrões observados e métrica quantitativa de qualidade. Os 30 prompts foram calibrados pelo autor com base em prática profissional do domínio, e estão abertos a contribuição de especialistas via templates de issue.
 
-Esta postura segue o que a obra prega no Invariante Cinco, a Honestidade Temporal: a biblioteca chega ao público em estado fechado, mas com cadência pública declarada de revisão e contribuição. Cada caso do golden set carrega data de calibração, e cada prompt tem changelog próprio para registrar a iteração.
+Esta postura segue o que a obra prega no Invariante Três, a Camada Dupla: a biblioteca chega ao público em estado fechado, mas com cadência pública declarada de revisão e contribuição. Cada caso do golden set carrega data de calibração, e cada prompt tem changelog próprio para registrar a iteração.
 
 ### Outras pastas
 

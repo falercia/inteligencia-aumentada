@@ -103,7 +103,7 @@ A pasta `Github falercia` não fica montada por padrão. Pedir acesso com o cami
 
 ## Estado em 25/08/2026
 
-- **L1**: `livro-v1.2` publicada, com README de vitrine, capa, nomes canônicos e workflow. A revisão de 12/ago (C19 proveniência, APX-J com watermarking, Sonnet 5 em $2/$10, Reg. UE 2026/1744, paratexto "O Que Mudou") finalmente commitada no repo do manuscrito.
+- **L1**: `livro-v1.3` preparada em 04/nov/2026 (APX-J quinta revisão), aguardando push da tag; `livro-v1.2` publicada, com README de vitrine, capa, nomes canônicos e workflow. A revisão de 12/ago (C19 proveniência, APX-J com watermarking, Sonnet 5 em $2/$10, Reg. UE 2026/1744, paratexto "O Que Mudou") finalmente commitada no repo do manuscrito.
 - **L2**: `v1.1.1` publicada, mesma estrutura de distribuição. APX-J v0.4.
 - **`deep-claude/apendice-vivo/`**: snapshot de 12/ago. Pendentes: BENCHMARKS e JANELAS-SLA aguardando scores auditados por terceiros, e cotação USD/BRL.
 - **Sobras conhecidas**: `PUSH-INSTRUCTIONS-v1.1.0.md` e `CHANGELOG-v1.1.0.md` na raiz do `inteligencia-aumentada` são andaimes de junho já executados. O paratexto "Sobre o Autor" do L2 teve o nome do repo do L1 corrigido no fonte, mas o PDF publicado só reflete isso na próxima regeneração.

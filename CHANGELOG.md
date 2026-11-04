@@ -4,6 +4,24 @@
 
 ---
 
+## livro-v1.3 — 4 de novembro de 2026
+
+**Edição digital regenerada com a quinta revisão do Apêndice J (Trilha do Número), checagem de 1º de novembro.**
+
+### Alterado
+
+- **Apêndice J (Trilha do Número)**: quinta revisão. Entram o Gemini 4 Argon (US$ 2/10 até 30/11, US$ 4/20 a partir de 01/12), o GPT-6.1 Terra (US$ 1/5) e o nome atual do DeepSeek Flash (V4.1-Flash-1017); a família Claude, conferida na página oficial, segue sem mudança de preço. Novo parágrafo sobre calendário de virada de preço como variável de orçamento
+- **Regulação**: PL 2338 com 40 proposições apensadas, ainda aguardando parecer do relator; Regulamento (UE) 2026/1744 e vigência de 27/07 confirmados no EUR-Lex; a frase sobre parecer apresentado em maio foi reescrita como declaração de imprensa não confirmada pela ficha oficial da Câmara
+- Página "O Que Mudou Nesta Edição" com a seção de 1º de novembro
+- Corpo dos capítulos: sem alteração
+
+### Pendente (declarado)
+
+- Lei nº 15.352/2026 e andamento da ANPD; data de publicação do Reg. (UE) 2026/1744 no Jornal Oficial; data de lançamento do Gemini 4 Argon; Gemini 3.8 Pro não verificado; scores auditados de benchmarks
+- Corpo do L1: capítulo de context engineering (C11), glossário e duas imagens tratam cache a 10% do preço como regra geral, impreciso para Fable 5.1 (0,025x) e Opus e Sonnet 5.5 (0,05x); decisão editorial pendente
+
+---
+
 ## livro-v1.2 — 25 de agosto de 2026
 
 **Revisão da camada de distribuição: o leitor precisa saber onde clicar.**

@@ -6,18 +6,27 @@
 
 ## livro-v1.4 — 25 de novembro de 2026
 
-**Edição digital regenerada com a sexta revisão do Apêndice J (Trilha do Número): o preço de fronteira caiu pela primeira vez.**
+**Edição de 25 de novembro de 2026: o preço de fronteira caiu pela primeira vez, e o Apêndice J passa a ser lido como notícia do dia.**
 
-### Alterado
+### O que mudou para quem lê
 
-- **Apêndice J (Trilha do Número)**: sexta revisão, reescrita para ser lida como estado de 25/11/2026. Entram o Claude Fable 5.2 (US$ 8/40, Fast mode 16/80) e o GPT-6.2 Astra (US$ 8/40) e Sol (2/10), as janelas de background da OpenAI (30% e 40% de desconto), o GA do Gemini 4 Argon em 13/10 e a mudança de cobrança de busca da DeepSeek. Novo texto sobre convergência do topo em US$ 8/40 e sobre velocidade e espera como as duas pontas do preço
-- **Regulação**: PL 2338 com 45 proposições apensadas, ainda aguardando parecer; EU AI Act com marco em 02/12/2026; marca d'água estendida a modelos anteriores
-- **Corpo**: o Capítulo 11, o glossário e dois diagramas deixaram de tratar o cache a 10% do preço como regra geral; o multiplicador corrente vive no Apêndice J
+- **O topo do mercado convergiu de novo, um degrau abaixo.** Claude Fable 5.2 (9/nov) e GPT-6.2 Astra (17/nov) chegaram ao mesmo preço, US$ 8/40 por milhão de tokens, 20% abaixo da geração anterior de cada um. Em setembro, os dois topos tinham convergido em US$ 10/50. A diferença no item que mais pesa em agentes, a leitura de cache, caiu de 4x para 2x.
+- **Velocidade e espera viraram preço.** A Anthropic levou o Fast mode ao tier de fronteira e a OpenAI passou a cobrar 30% a 40% menos de quem aceita receber a resposta em até duas ou oito horas. A pergunta de arquitetura agora inclui quanto do volume precisa ser síncrono.
+- **Calendário das próximas semanas.** Fim da promoção do Sol 5.6 (30/nov), Gemini 4 Argon dobrando (1º/dez), Gemini 3.8 Flash dobrando (1º/jan) e, do lado da Anthropic, saída do Sonnet 4.5 e do Fast mode do Opus 4.8 (30/nov) e do Opus 4.5 (22/jan).
+- **Regulação.** O PL 2338 segue aguardando parecer na Câmara, agora com 45 projetos apensados. No EU AI Act, o próximo marco é 2 de dezembro, fim do prazo extra para marcar conteúdo gerado por sistemas já no mercado, e a marca d'água do Claude chegou a sete modelos antigos neste mês.
+- **O Apêndice J mudou de forma.** Cada seção abre com o estado de 25 de novembro, e as atualizações empilhadas desde junho viraram um histórico curto no fim. A tabela de modelos foi redesenhada para caber na página.
+- **Uma regra numérica saiu do corpo.** O Capítulo 11, o glossário e dois diagramas tratavam o cache a 10% do preço como regra geral, o que deixou de valer justamente nos modelos mais caros. O texto ensina o padrão, e o multiplicador de cada fornecedor mora no Apêndice J.
+- **O que ficou de fora.** Três modelos Gemini 4 que circulam em fontes secundárias não aparecem nas páginas oficiais do Google e não entraram. Sem fonte primária, não tabula.
+
+### Registro técnico
+
+- **Apêndice J (Trilha do Número)**: sexta revisão. Tabela de modelos com Fable 5.2, GPT-6.2 Astra e Sol, Gemini 4 Argon (GA 13/10, degrau de 01/12 em todos os tiers), Gemini 3.8 Flash e 3.1 Pro reconferidos, DeepSeek (busca disparada pelo modelo cobrada como token desde 18/11) e xAI; seção de benchmarks com os números autorreportados do Fable 5.2 separados da última captura auditada; seção de regulação reescrita (EU AI Act, PL 2338, ANPD)
+- **Corpo**: C11, glossário do C11 e diagramas `cap-11-img-03` e `cap-36-img-01` sem regra fixa de cache
 - Página "O Que Mudou Nesta Edição" com a seção de 25 de novembro
 
 ### Pendente (declarado)
 
-- Tier de Terra 6.1 e Luna na página da OpenAI; janela de contexto do GPT-6.2 e do Argon; Lei nº 15.352/2026 e atos da ANPD; data de publicação do Reg. (UE) 2026/1744 no Jornal Oficial; scores auditados de benchmarks
+- Tier de Terra 6.1 e Luna na página da OpenAI; janela de contexto do GPT-6.2 e do Argon; versões verticais de modelos (cyber, saúde, jurídico); Qwen4-Max e demais lançamentos chineses; Lei nº 15.352/2026 e atos da ANPD; data de publicação do Reg. (UE) 2026/1744 no Jornal Oficial; scores auditados de benchmarks
 
 ---
 

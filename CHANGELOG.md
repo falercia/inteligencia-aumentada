@@ -4,6 +4,23 @@
 
 ---
 
+## livro-v1.4 — 25 de novembro de 2026
+
+**Edição digital regenerada com a sexta revisão do Apêndice J (Trilha do Número): o preço de fronteira caiu pela primeira vez.**
+
+### Alterado
+
+- **Apêndice J (Trilha do Número)**: sexta revisão, reescrita para ser lida como estado de 25/11/2026. Entram o Claude Fable 5.2 (US$ 8/40, Fast mode 16/80) e o GPT-6.2 Astra (US$ 8/40) e Sol (2/10), as janelas de background da OpenAI (30% e 40% de desconto), o GA do Gemini 4 Argon em 13/10 e a mudança de cobrança de busca da DeepSeek. Novo texto sobre convergência do topo em US$ 8/40 e sobre velocidade e espera como as duas pontas do preço
+- **Regulação**: PL 2338 com 45 proposições apensadas, ainda aguardando parecer; EU AI Act com marco em 02/12/2026; marca d'água estendida a modelos anteriores
+- **Corpo**: o Capítulo 11, o glossário e dois diagramas deixaram de tratar o cache a 10% do preço como regra geral; o multiplicador corrente vive no Apêndice J
+- Página "O Que Mudou Nesta Edição" com a seção de 25 de novembro
+
+### Pendente (declarado)
+
+- Tier de Terra 6.1 e Luna na página da OpenAI; janela de contexto do GPT-6.2 e do Argon; Lei nº 15.352/2026 e atos da ANPD; data de publicação do Reg. (UE) 2026/1744 no Jornal Oficial; scores auditados de benchmarks
+
+---
+
 ## livro-v1.3 — 4 de novembro de 2026
 
 **Edição digital regenerada com a quinta revisão do Apêndice J (Trilha do Número), checagem de 1º de novembro.**
